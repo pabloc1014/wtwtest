@@ -1,0 +1,6 @@
+@WTWTest.Server_HostAddress = http://localhost:5193
+
+GET {{WTWTest.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

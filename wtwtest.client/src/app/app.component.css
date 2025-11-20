@@ -1,0 +1,143 @@
+﻿/* Contenedor principal */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Cabecera y botón nuevo */
+.header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #bdbdbd;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+.btn-primary { background: #007bff; color: white; border-color:#007bff; }
+.btn-success { background: #28a745; color: white; border-color:#28a745; }
+.btn-secondary { background: #6c757d; color: white; border-color:#6c757d; }
+
+/* Panel estilo tarjeta (fondo rosado claro como la imagen) */
+.panel {
+  background: #f3e9e9; /* rosado muy suave */
+  border: 1px solid #e0d6d6;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+/* Form row */
+.form-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.form-group, .col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: #4b4b4b;
+}
+input[type="number"], select {
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+/* Tabla de detalles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+}
+.table thead {
+  background: transparent;
+}
+.table th, .table td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+  font-size: 0.95rem;
+}
+.table thead th {
+  font-weight: 600;
+  color: #555;
+  background: #fff;
+}
+
+/* Inputs dentro de la tabla */
+.table input[type="number"], .table select {
+  width: 100px;
+}
+
+/* Imagen producto */
+.table img {
+  display: block;
+  max-width: 60px;
+  max-height: 60px;
+  object-fit: contain;
+  border-radius: 4px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+}
+
+/* Totales a la derecha (caja) */
+.totales {
+  width: 260px;
+  margin-left: auto;
+  margin-top: 12px;
+  background: transparent;
+  padding: 10px;
+  border-radius: 6px;
+}
+.totales .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 8px;
+  font-size: 0.98rem;
+}
+.totales .row strong {
+  color: #444;
+}
+.totales .row span {
+  color: #222;
+  font-weight: 600;
+}
+
+/* Layout responsivo pequeño */
+@media (max-width: 760px) {
+  .form-row {
+    flex-direction: column;
+  }
+  .table input[type="number"], .table select {
+    width: 100%;
+  }
+  .totales {
+    width: 100%;
+  }
+}
+
+/* Pequeño helper para alinear y espaciar botones */
+.mt-2 { margin-top: 8px; }
+.mt-3 { margin-top: 12px; }
+.mt-4 { margin-top: 16px; }
+.d-flex { display:flex; }
+.justify-content-between { justify-content: space-between; }

@@ -1,0 +1,351 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pablo\\source\\repos\\wtwtest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\services\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\services\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\repositories\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\repositories\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\dtos\\detallefacturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\dtos\\detallefacturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\viewmodel\\productoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\viewmodel\\productoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\db\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\db\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\services\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\services\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|c:\\users\\pablo\\source\\repos\\wtwtest\\wtwtest.server\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16218A5F-DE9D-42A3-91ED-91B0244B881C}|WTWTest.Server\\WTWTest.Server.csproj|solutionrelative:wtwtest.server\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 3450,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WTWTest.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\appsettings.Development.json",
+              "RelativeToolTip": "WTWTest.Server\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T16:00:13.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "WTWTest.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\appsettings.json",
+              "RelativeToolTip": "WTWTest.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T15:59:59.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Repositories\\FacturaRepository.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Repositories\\FacturaRepository.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Repositories\\FacturaRepository.cs",
+              "RelativeToolTip": "WTWTest.Server\\Repositories\\FacturaRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwDAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:47:04.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FacturaService.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Services\\FacturaService.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Services\\FacturaService.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Services\\FacturaService.cs",
+              "RelativeToolTip": "WTWTest.Server\\Services\\FacturaService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:42:19.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "WTWTest.Server\\Controllers\\FacturaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:03:46.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SqlConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\DB\\SqlConnectionFactory.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\DB\\SqlConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\DB\\SqlConnectionFactory.cs",
+              "RelativeToolTip": "WTWTest.Server\\DB\\SqlConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:33:22.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "WTWTest.Server\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:15:55.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Services\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Services\\ProductoService.cs",
+              "RelativeToolTip": "WTWTest.Server\\Services\\ProductoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:10:44.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Services\\IProductoService.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Services\\IProductoService.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Services\\IProductoService.cs",
+              "RelativeToolTip": "WTWTest.Server\\Services\\IProductoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:11:15.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\ViewModel\\ProductoViewModel.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\ViewModel\\ProductoViewModel.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\ViewModel\\ProductoViewModel.cs",
+              "RelativeToolTip": "WTWTest.Server\\ViewModel\\ProductoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:12:43.144Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1784,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Dtos\\ProductoDto.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Dtos\\ProductoDto.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Dtos\\ProductoDto.cs",
+              "RelativeToolTip": "WTWTest.Server\\Dtos\\ProductoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:12:55.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Program.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Program.cs",
+              "RelativeToolTip": "WTWTest.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:37:28.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetalleFacturaDto.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Dtos\\DetalleFacturaDto.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Dtos\\DetalleFacturaDto.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Dtos\\DetalleFacturaDto.cs",
+              "RelativeToolTip": "WTWTest.Server\\Dtos\\DetalleFacturaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:46:23.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Services\\IClienteService.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Services\\IClienteService.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Services\\IClienteService.cs",
+              "RelativeToolTip": "WTWTest.Server\\Services\\IClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:11:20.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Services\\ClienteService.cs",
+              "RelativeToolTip": "WTWTest.Server\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:11:07.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "WTWTest.Server\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:16:11.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "WTWTest.Server\\Repositories\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "WTWTest.Server\\Repositories\\ProductoRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:10:48.446Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

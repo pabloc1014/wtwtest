@@ -1,0 +1,87 @@
+﻿<div class="container">
+
+  <div class="header">
+    <button class="btn btn-secondary" (click)="nuevo()">Nuevo</button>
+  </div>
+
+  <div class="row mt-3">
+
+    <div class="col">
+      <label>Cliente</label>
+      <select class="form-control" [(ngModel)]="factura.idCliente">
+        <option *ngFor="let c of clientes" [value]="c.clienteId">{{ c.razonSocial }}</option>
+      </select>
+    </div>
+
+    <div class="col">
+      <label>Número de Factura</label>
+      <input type="number" class="form-control" [(ngModel)]="factura.numeroFactura">
+    </div>
+
+  </div>
+
+  <button class="btn btn-primary mt-3" (click)="agregarProducto()">Agregar producto</button>
+
+  <table class="table mt-3">
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Precio Unitario</th>
+        <th>Cantidad</th>
+        <th>Imagen</th>
+        <th>Totales</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let item of factura.detalles; let i = index">
+
+        <td>
+            <select class="form-control"
+                    [(ngModel)]="item.idProducto"
+                    (ngModelChange)="productoSeleccionado(item.idProducto)">
+                <option *ngFor="let p of productos" [value]="p.id">
+                {{ p.nombreProducto }}
+                </option>
+            </select>
+        </td>
+
+        <td>{{ item.precioUnitarioProducto | number }}</td>
+
+        <td>
+          <input type="number" min="1" class="form-control"
+                 [(ngModel)]="item.cantidadDeProducto"
+                 (ngModelChange)="calcularTotales()">
+        </td>
+
+        <td>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8ZGRkAAADAwMDr6+vT09Pe3t7Q0NAUFBTDw8OioqL39/fp6ekkJCQXFxeYmJjx8fG0tLQICAgQEBDg4OC1tbXY2Ninp6cyMjKEhITKysqtra1RUVFycnItLS27u7uRkZFoaGhSUlI4ODhlZWWLi4uUlJR/f38eHh6sUgDFAAAFBklEQVR4nO2da3eqOhCGMdaKUpGL4rXV7p7us///LzyYEEQLBdeZSaZ7vc83WBDyNEyCmUCDAAAAAAAAAAAAAAAAAAAAAACPRM8rMny7tJIqQsKJb52vPKl4REeupr6FvjBWhIKjUShPkdhwFGbSFI0hSRDaVhQWi9pQzSbT/8tkLlTRGCYEJc3s/S4sFo3hE0FJtaGwWKQ2zMS1IrFhtlPSYpHYUCVzJawVqQ1fAmmK9IbBUonqbhgMraKQWOQwlKXIYigqFnkMJcUik2F9o/pX5DKUE4tshmIU+QyldDeMhkK6G05DGd0Nq6GIWOQ1lBCLzIZW0WMschv6727YDb3HIr+hb0UHhp67GxeGfmPRiaHXod+Noc9YdGTosRVdGfrrbpwZeutu3Bn6ikWHhp4UXRr6iUWnhl5i0a2hj0HDsaGHWKQ27C3JeSxSG66iHpzfqMSG8aKXrVlm5qy7oV6pEId92HV0oYoIrtoPx2qTgagZwVX7oTMsHjYcE1y1HzrD4PXBNXA/zzDYz4ei+9MfaDic5K83fIIhITDkAYaUwJAHGFICQx5gSAkMeYAhJd8ZFmnjpdCXdNgU5yRtTJmu0qL1ICGGy/K3+NJuXF413Q0ob1cel7aW0ESGoX671FbwUG7Eqr1BmhT6pIPZuPySjzvKlmBoZpaMYqrfpR1QJV1cbBTN7Hbr/L0MwygLrWJaTVP3d0hPypyUXjMUbbOiMgzLRjS1na/NXO+gGo2rk9Y2P9HaPwkxDKamFbNsuOClQD2pnX2bnZBiaBUfEawVtWBXbkKMYTBVoRU8PVBkpdidX5JjGBS5qWz+SI5hZk/qHF0EGa6rZEQ2f6DMeVYlJtKuI+QYHupsS/uzSSvL60mHjkPEGKaNj2YMVpzXgnbo/4oUw7QaB7P4AUW7oMT8cTpuVCGGdqCf2aF/iKJ9kilm3ynKMEx0FfU4ONGKser/ws5Kn6SHiXF1ftv3GmQYFuo60Juhf+iTdzXQG0XBT95J2XD1QD/VG8PasB7ox/onl9w2LONQXSsxKTeGjInz8ri61cblxrrtKCGGQVQ0f/kUwz6AkjQfZG5LuCLFkA8YUgJDHmBICQx5gCElMOQBhpTAkAcYUgJDHmBICQx5gCElvYbjzXp6PwcVTdLN5vR8f+jL/rA57PveQLwgyfCoX3H51cywpEf75strY7Y3OW+rvdtz76ycIMMqvZarPzb/cFqo3KaWMvWrmjtMPlWdEQ+V+uxxFGS4zOpqv+3SU7rbqjq1b9SPy9Np85qr5t5R2byb0777qoIMJ81lB+UdmN34VS2mVH7/cf44v9zbnVcVZBikF6/8rv65Cbg72zjTe7Pa9idkuTXJ/vXGMVfvs+SyWPGj6Rir/PdzFETFWdl2z85dRQozLFm9lw0ZxnEcls33Tz1MnD7K27bcHZa787NNUUSfmT74m5eZ5RmWjsvj2ygcvR1/36TY9v9+LOJ4sX0/NHvP5PC+XYR/unNVEg0vJEnbIBAlSVuCKWrdWyHVkA4YUgJDHmBICQx5gCElMOQBhpTAkAcYUgJDHmBICQx5gCElMOQBhpTAkAcYUgJDHmBICQx5gCElMOQBhpTAkAcYUgJDHmBIiTEc9qo9He6/yT6buGXm2nD0wH81oGHk2tALMCTiRd0v0XZF3Pu/oYhIncegpetDYOQkz35wPUIBAAAAAAAAAAAAAAAAAAAAcMN/ZvRPm+yjQtIAAAAASUVORK5CYII=" width="60" height="60">
+        </td>
+
+        <td>{{ item.subtotalProducto | number }}</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Totales -->
+  <div class="totales mt-3">
+    <div class="d-flex justify-content-between">
+      <strong>SubTotal</strong>
+      <span>{{ subtotal | number }}</span>
+    </div>
+
+    <div class="d-flex justify-content-between">
+      <strong>Impuestos (19%)</strong>
+      <span>{{ impuestos | number }}</span>
+    </div>
+
+    <div class="d-flex justify-content-between">
+      <strong>Total</strong>
+      <span>{{ total | number }}</span>
+    </div>
+  </div>
+
+  <button class="btn btn-success mt-4" (click)="guardar()">Guardar</button>
+
+</div>

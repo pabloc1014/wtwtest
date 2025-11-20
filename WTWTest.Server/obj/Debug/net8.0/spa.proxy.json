@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:65470",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\pablo\\source\\repos\\wtwtest\\WTWTest.Server\\..\\wtwtest.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
